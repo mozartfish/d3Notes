@@ -1,0 +1,74 @@
+/* Type Selectors */
+h1 {
+/* Select all level 1 headings  */
+}
+p {
+/* select all paragraphs */
+}
+strong {
+/* select all strong elements  */
+}
+em {
+/* select all em elements */
+}
+div {
+/* select all divs */
+}
+
+/* Descendant Selectors */
+h1 em {
+/* Select all em elements contained in an h1 element */
+}
+div p {
+/* Select all p elements contained in a div */
+}
+
+/* Class Selectors */
+.caption {
+/* select all elements with class caption */
+}
+.label {
+/* select all elements with class label  */
+}
+.axis {
+/* select all elements with class axis  */
+}
+
+/* Chained Class Selectors */
+.bar.highlight {
+    /* apply styles to highlighted bars */
+}
+.axis.x {
+    /* apply styles to x axis */
+}
+.axis.y {
+    /* apply styles to y axis */
+}
+
+/* ID Selectors */
+#header {
+/* Select element with id header */
+}
+#nav {
+/* select element with id nav */
+}
+#export{
+    /* select element with id export */
+}
+
+/* Complex Selectors */
+div.sidebar {
+    /* Select divs with class sidebar but not other elements with that class */
+}
+#button.on {
+    /* Select element with ID button but only when the class on is applied */
+}
+
+/* Cascading Styles */
+p {
+    color:blue;
+}
+p.highlight {
+    color:black;
+    background-color:yellow;
+}
